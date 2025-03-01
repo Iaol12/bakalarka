@@ -935,6 +935,7 @@ $(function () {
       tooltip.style("display", "block"); // set display
       tooltip
         .style("top", d3.event.layerY + 10 + "px") // always 10px below the cursor
+        .style("opacity", 1)
         .style("left", d3.event.layerX + 10 + "px");
       d3.select(this).attr("fill", "#F44336");
     });
@@ -1039,6 +1040,7 @@ $(function () {
       tooltip.style("display", "grid"); // set display
       tooltip
         .style("top", d3.event.layerY + 10 + "px") // always 10px below the cursor
+        .style("opacity", 1)
         .style("left", d3.event.layerX + 10 + "px"); // always 10px to the right of the mouse
       d3.select(this).attr("fill", "#F44336");
     });

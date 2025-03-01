@@ -9,8 +9,11 @@
   position: absolute;
   text-align: center;
   top: 95px;
-  width: 150px;
   z-index: 4;
+}
+
+.label{
+  color: #333;
 }
 
 .not-set {
