@@ -41,7 +41,7 @@ $(function () {
         "//" +
         location.hostname +
         (location.port ? ":" + location.port : "");
-      dashboardSelect = $("#dashboard");
+      dashboardSelect = $("#dashboardSelection");
       editBtn = $("#editBtn");
       removeBtn = $("#removeBtn");
       activeGrid = $("#grid_" + dashboardSelect.val());

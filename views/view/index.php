@@ -12,11 +12,10 @@ $this->registerJsFile('@web/js/draggabilly.min.js', ['depends' => 'yii\web\YiiAs
 $this->registerJsFile('@web/js/view.js', ['depends' => 'yii\web\YiiAsset']);
 $this->registerJsFile('@web/js/jquery-ui.min.js', ['depends' => 'yii\web\YiiAsset']);
 //$this->registerJs(sprintf('$(document).ready(function(){DrawLineGraph(%s);});', $graph), \yii\web\View::POS_END);
-$select = '<div class="row"><div class="col s12 m6 l4"><select id="dashboard">';
-
+$select = '<div class="row"><div class="col s12 m6 l4 "><select id="dashboardSelection" class="browser-default">';
 foreach($views as $view)
 {
-    $select .= sprintf("<option value='%s' %s>%s</option>", $view->id, ($view->active == 1 ? 'selected' : ''), $view->name );
+    $select .= sprintf("<option class='top-nav' value='%s' %s>%s</option>", $view->id, ($view->active == 1 ? 'selected' : ''), $view->name );
 }
 
 $comps = "";
@@ -50,6 +49,7 @@ $this->params['title'] = $select;
             <i class="material-icons">add_box</i>
         </a>
     </div>
+<div>
 
     <?php foreach ($views as $view): ?>
         <?php 

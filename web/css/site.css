@@ -175,6 +175,15 @@ main > .container {
   white-space: nowrap;
 }
 
+#dashboardSelection {
+  color: white !important;
+  background-color: #0091ea !important;
+  height: 50px;
+  border: none;
+  border-bottom: 3px solid white !important;
+  
+}
+
 /* Style if compact mode is ON */
 body.compact .side-nav {
   width: 56px !important;
