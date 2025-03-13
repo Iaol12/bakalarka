@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'bsVersion' => '3.x',
+    'bsVersion' => '5.x',
     'adminEmail' => 'admin@example.com',
     'defaultPass' => 'password'
 ];

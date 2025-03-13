@@ -25,7 +25,7 @@ class AppAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap5\BootstrapAsset',
         'macgyer\yii2materializecss\assets\MaterializeAsset',
         'macgyer\yii2materializecss\assets\MaterializePluginAsset',
         '\app\assets\FlatpickrAsset',

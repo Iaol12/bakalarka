@@ -45,6 +45,12 @@ $config = [
 		],
 		'navigation' => ['class' => 'app\components\Navigation'],
 	],
+	'modules' => [
+    'gridview' => [
+        'class' => 'kartik\grid\Module', // Required for Kartik GridView
+    ],
+],
+
 	'params' => $params,
 	'timeZone' => 'Europe/Bratislava',
 ];

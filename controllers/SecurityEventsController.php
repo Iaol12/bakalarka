@@ -579,13 +579,13 @@ class SecurityEventsController extends Controller
                         ])
                     ]);
                     break;
-                case 'analyzed':
-                    array_push($replaceDataColumns, [
-                        'class' => '\dosamigos\grid\columns\BooleanColumn',
-                        'attribute' => 'analyzed',
-                        'treatEmptyAsFalse' => true
-                    ]);
-                    break;
+                // case 'analyzed':
+                //     array_push($replaceDataColumns, [
+                //         'class' => '\kartik\grid\BooleanColumn',
+                //         'attribute' => 'analyzed',
+                        
+                //     ]);                    
+                //     break;
                 default:
                     array_push($replaceDataColumns, $column);
             }

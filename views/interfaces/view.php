@@ -5,7 +5,7 @@ use macgyer\yii2materializecss\widgets\grid\GridView;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use app\models\Interfaces;
-use yii\bootstrap\Collapse;
+use yii\bootstrap5\Collapse;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
